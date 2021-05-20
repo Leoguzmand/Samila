@@ -1,43 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio &#8902; Samila</title>
     <link rel="icon" type="image/svg" href="images/favicon.svg" sizes="any">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 
 <body>
-    <p>Leonardo</p>
+
     <header>
-        <div class="col-md-2">
-            <!-- Logo e inicio -->
+        <div class="haru-header-nav-wrap">
+            <div class="row header-nav-above d-flex justify-content-between">
+                <div class="col-md-2 header-left header-elements align-self-center">
 
+                    <div class="header-logo has-logo-sticky">
+                        <a href="https://romylopez.com/" class="logo-default"
+                            title="Romy Lopez - Hackea tu Mundo Mental">
+                            <img src="https://romylopez.com/wp-content/uploads/2020/03/cropped-logo2-01-1.png"
+                                alt="Romy Lopez - Hackea tu Mundo Mental">
+                        </a>
+                        <a href="https://romylopez.com/" class="logo-black" title="Romy Lopez - Hackea tu Mundo Mental">
+                            <img src="https://romylopez.com/wp-content/uploads/2020/03/cropped-logo2-02.png"
+                                alt="Romy Lopez - Hackea tu Mundo Mental">
+                        </a>
+                        <a href="https://romylopez.com/" class="logo-retina"
+                            title="Romy Lopez - Hackea tu Mundo Mental">
+                            <img src="https://romylopez.com/wp-content/uploads/2020/03/cropped-logo2-02.png"
+                                alt="Romy Lopez - Hackea tu Mundo Mental">
+                        </a>
+                        <a href="https://romylopez.com/" class="logo-sticky"
+                            title="Romy Lopez - Hackea tu Mundo Mental">
+                            <img src="https://romylopez.com/wp-content/uploads/2020/03/cropped-logo2-02.png"
+                                alt="Romy Lopez - Hackea tu Mundo Mental">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8  row header-center align-self-center">
+                    <!-- Primary Menu -->
+                    <div class="header-navigation navbar navbar-toggleable-md" role="navigation">
+                        <div id="header-primary-menu" class="menu-wrap">
+                            <ul id="main-menu" class="haru-main-menu nav-collapse navbar-nav">
+                                <li id="menu-item-1343"
+                                    class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-11 current_page_item level-0 ">
+                                    <a href="https://romylopez.com/">Inicio</a></li>
+                                <li id="menu-item-1346"
+                                    class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children level-0 ">
+                                    <a href="https://romylopez.com/servicios/">Servicios</a><b class="menu-caret"></b>
+                                    <ul class="sub-menu animated menu_fadeIn" style="">
+                                        <li id="menu-item-3872"
+                                            class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
+                                            <a href="https://romylopez.com/servicios/sesiones-de-neurohacking/">Sesiones
+                                                de Neurohacking</a></li>
+                                        <li id="menu-item-4678"
+                                            class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
+                                            <a href="https://romylopez.com/servicios/tribu-de-profesionales/">Tribu de
+                                                profesionales</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-1344"
+                                    class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-0 ">
+                                    <a href="https://romylopez.com/blog/">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Cart Theme Check -->
+                </div>
+
+                <div class="col-md-2 header-right header-elements align-self-center">
+                    <div class="header-elements header-elements-right">
+                        <div class="header-elements-item search-button-wrap">
+                            <a href="javascript:;" class="header-search-button" data-effect="ZoomIn"><i
+                                    class="header-icon icon-magnifier"></i></a>
+                        </div>
+                        <div class="header-elements-item user-account-wrap">
+                            <div class="user-account-content logged-out">
+                                <a href="https://romylopez.com/mi-cuenta/" class="login-popup-link"
+                                    id="login-popup-link"><i class="header-icon icon-user"></i></a>
+                            </div>
+                        </div>
+                        <div class="header-elements-item mini-cart-wrap no-price">
+                            <div class="widget_shopping_cart_content">
+                                <div class="widget_shopping_cart_icon">
+                                    <i class="header-icon icon-basket"></i>
+                                    <span class="total">0</span>
+                                </div>
+                                <div class="sub-total-text"><span class="woocs_special_price_code"><span
+                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                    class="woocommerce-Price-currencySymbol">$</span>&nbsp;0.00</bdi></span></span>
+                                </div>
+                                <div class="cart_list_wrap">
+                                    <!-- Use for Mini Cart Sidebar -->
+                                    <div class="mini-cart-sidebar-header">Mini Cart<span
+                                            class="cart-sidebar-close"></span></div>
+                                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                                        <li class="empty">
+                                            <h4>Carrito vacío</h4>
+                                            <p class="woocommerce-mini-cart__empty-message">No hay productos en el
+                                                carrito.</p>
+                                        </li>
+                                    </ul><!-- end product list -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md-8">
-            <!-- Menu Eventos: Interior, Exterior, Catering -->
-            
-        </div>
-
-        <div class="col-md-2">
-            <!-- Contacto -->
-
-            
-        </div>
+       
     </header>
     <nav>
-        <a href="index.html" ></a>
+        <a href="index.html"></a>
     </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
 
 
 
-    <footer>Copyright 2021 Leonardo Guzman. All rights reseved.
-        <br>
-        Codo a Codo &copy Comision 2118.
-    </footer>
 </body>
 
 </html>
