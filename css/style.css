@@ -1,3 +1,21 @@
+
+
+#brand, #brand1   {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* #fondo {
+    animation: zoomIn;
+    animation-delay: 0.3s;
+    animation-duration: 1.5s;   
+    animation-field-mode: forward;       
+} */
+
+section {
+    min-height: 400 px;
+    background-image: url('./img/entrada3-web.jpg') no-repeat;
+}
+
 footer {
     background-color: darkslategrey;
     text-align: center;
