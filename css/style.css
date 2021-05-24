@@ -14,6 +14,9 @@
 section {
     min-height: 400 px;
     background-image: url('./img/entrada3-web.jpg') no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
